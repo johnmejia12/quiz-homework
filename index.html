@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Quiz</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>  
+    <h1 id="time" class="time"></h1>
+
+    <div id="Highscores" class="highscore"> <h2>Highscores</h2> </div>
+
+    <main class="main">
+        <div class="start" id="start">
+            <h1>Code Quiz challenge</h1>
+            <button id="startButton" onclick="startGame()">Start Quiz</button>
+        </div>
+
+        <div class="theQuestions hide" id="theQuestions">
+            <h2 id="question">question: </h2>
+            <div id="answers"></div>
+        </div>
+
+        <div class="showHighscores hide" id="showHighscores">
+            <h2>All done</h2>
+
+            <p> Your final score is ----</p>
+
+            <p>Enter your initials: <input type="text" name="initials"> <button type="button" id="initialButton">Submit</button></p>
+        </div>
+
+
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

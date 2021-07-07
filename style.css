@@ -1,0 +1,28 @@
+.time {
+    position: absolute; top: 0; right: 10px; width: 100px; 
+    text-align: right;
+
+}
+
+.highscore {
+    position: absolute; top: 0; left: 10px; width: 100px; 
+    text-align: left;
+
+}
+
+.main {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+}
+
+.hide {
+    display: none;
+}
